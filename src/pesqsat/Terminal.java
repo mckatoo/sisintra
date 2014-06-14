@@ -288,7 +288,7 @@ public class Terminal extends javax.swing.JFrame {
         Banco db = new Banco();
         boolean ok = db.abrir();
         if (ok) {
-            JOptionPane.showMessageDialog(null, "Bem vindo!");
+            JOptionPane.showMessageDialog(null, "Conectado ao Banco de Dados!");
         } else {
             System.exit(0);
         }
